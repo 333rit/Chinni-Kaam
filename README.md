@@ -61,7 +61,7 @@ To run the **Hospital Wait-Time Monitoring Dashboard**, follow these three simpl
 
 ### **1️⃣ Set Your Working Directory**
 
-Open R or RStudio and navigate to the folder containing the project files:
+Upload or Enter the data:
 
 ```r
 setwd("path/to/hospital_wait_times_dashboard")
