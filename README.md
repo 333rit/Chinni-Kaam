@@ -27,7 +27,7 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 - [**README.md**](README.md)  
   This file!. Main project documentation —- setup instructions, overview, and feature guide.
 
-- [**CODEME.md**](CODEME.md)  
+- [**CODEME.md**](CODE_ME.md)  
   In-depth code explanations -- breakdown of core functions and Shiny server flow.
 
 - [**Process_flow.md**](Process_flow.md)  
