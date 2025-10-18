@@ -1,4 +1,4 @@
-# 🩺 Hospital Process Flow
+# 🩺 Hospital Process Flow 
 
 ```mermaid
 flowchart TD
@@ -19,3 +19,24 @@ flowchart TD
     O --> P[Update Process Parameters / Staffing Schedule]
     P --> Q[Continuous Improvement Loop to Dashboard Insights]
     Q --> B
+
+    %% --- Color coding section ---
+    style A fill:#6CB4EE,stroke:#0366d6,stroke-width:2px,color:#fff
+    style B fill:#6CB4EE,stroke:#0366d6,stroke-width:2px,color:#fff
+    style C fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+
+    style D fill:#F4D03F,stroke:#B7950B,stroke-width:2px,color:#000
+
+    style E fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+    style F fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+    style G fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+    style H fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+    style I fill:#BB8FCE,stroke:#6C3483,stroke-width:2px,color:#fff
+    style J fill:#BB8FCE,stroke:#6C3483,stroke-width:2px,color:#fff
+    style K fill:#F4D03F,stroke:#B7950B,stroke-width:2px,color:#000
+    style L fill:#58D68D,stroke:#1D8348,stroke-width:2px,color:#fff
+    style M fill:#E67E22,stroke:#935116,stroke-width:2px,color:#fff
+    style N fill:#E74C3C,stroke:#922B21,stroke-width:2px,color:#fff
+    style O fill:#E74C3C,stroke:#922B21,stroke-width:2px,color:#fff
+    style P fill:#E74C3C,stroke:#922B21,stroke-width:2px,color:#fff
+    style Q fill:#6CB4EE,stroke:#0366d6,stroke-width:2px,color:#fff
