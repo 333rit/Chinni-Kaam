@@ -52,3 +52,37 @@ The dashboard stores each check‑in event in a structured data frame. The follo
 | `Weekend`             | Boolean indicating whether the visit occurred on a weekend                                              | `TRUE`                |
 | `Next_Checkin`        | Calculated ideal next check‑in time based on severity and treatment                                     | `19-10-2025 10:30:00` |
 | `Subgroup` (internal) | Numeric subgroup combining shift and section for SPC analysis 
+
+---
+
+## ▶️ Running the App Locally
+
+To run the **Hospital Wait-Time Monitoring Dashboard**, follow these three simple steps:
+
+### **1️⃣ Set Your Working Directory**
+
+Open R or RStudio and navigate to the folder containing the project files:
+
+```r
+setwd("path/to/hospital_wait_times_dashboard")
+```
+
+### **2️⃣ Source the Helper Functions**
+
+Load the backend functions that support the dashboard’s analytics:
+
+```r
+source("dashboard_functions.R")
+```
+
+### **3️⃣ Launch the Shiny App**
+
+Run the Shiny dashboard locally:
+
+```r
+shiny::runApp("hospital_dashboard.R")
+```
+
+---
+
+
