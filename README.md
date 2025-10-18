@@ -24,14 +24,11 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 - [**functions_process_control.R**](functions_process_control.R)  
   Functions for statistical process control helpers
 
-- [**hospital_dashboard.R**](hospital_dashboard.R)  
+- [**codebook.R**](CODEBOOK.R)  
   Main R Shiny application file containing the user interface (UI) and server logic.
 
 - [**README.md**](README.md)  
   This file!. Main project documentation —- setup instructions, overview, and feature guide.
-
-- [**CODEME.md**](CODE_ME.md)  
-  In-depth code explanations -- breakdown of core functions and Shiny server flow.
 
 - [**Process_flow.md**](Process_flow.md)  
   Root-cause process flow diagram (Mermaid) illustrating patient data and improvement loop.
