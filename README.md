@@ -57,32 +57,11 @@ The dashboard stores each check‑in event in a structured data frame. The follo
 
 ## ▶️ Running the App Locally
 
-To run the **Hospital Wait-Time Monitoring Dashboard**, follow these three simple steps:
+To run the **Hospital Wait-Time Monitoring Dashboard**, 
 
-### **1️⃣ Set Your Working Directory**
+### **1️⃣ Make sure to have codebook.r, dashboard_function.r and functions_process_control.r in the same working directory** 
 
-Upload or Enter the data:
-
-```r
-setwd("path/to/hospital_wait_times_dashboard")
-```
-
-### **2️⃣ Source the Helper Functions**
-
-Load the backend functions that support the dashboard’s analytics:
-
-```r
-source("dashboard_functions.R")
-source("functions_process_control.R")
-```
-
-### **3️⃣ Launch the Shiny App**
-
-Run the Shiny dashboard locally:
-
-```r
-shiny::runApp("hospital_dashboard.R")
-```
+Simply run the cookbook.R file! Running it would launch the Shiny App.
 
 ---
 
@@ -97,24 +76,18 @@ This example demonstrates how to use the **Hospital Wait-Time Monitoring Dashboa
 Run the following command in R or RStudio to open the dashboard:
 
 ```r
-shiny::runApp("hospital_dashboard.R")
+shiny::runApp("codebook.R")
 ```
 Once executed, the app will automatically open in your default web browser.
-<img width="1440" height="725" alt="Screenshot 2025-10-18 at 13 34 23" src="https://github.com/user-attachments/assets/99f4b138-3110-4778-b0e1-f72519adeb9d" />
+<img width="1438" height="759" alt="Screenshot 2025-10-18 at 15 41 04" src="https://github.com/user-attachments/assets/8cff9f77-8d3b-4301-a461-86acabc41803" />
 
 
-### **2️⃣ Enter Patient Metrics**
+### **2️⃣ Upload the test data file or manually enter patient metrics**
 
 Navigate to the **“Enter Patient Metrics”** tab on the dashboard and input the following details for each new patient entry:
-<img width="1440" height="730" alt="Screenshot 2025-10-18 at 13 35 05" src="https://github.com/user-attachments/assets/c6d10639-6ac6-40fa-ace7-319fb59c896e" />
+<img width="1420" height="762" alt="image" src="https://github.com/user-attachments/assets/4574bfc3-f7c6-4e4e-bcc2-3cad3331eb68" />
 
-
-Once all fields are filled, click **Enter** to record the new data entry.
-
-The system will automatically:
-- Assign the appropriate **shift and section** based on the current time  
-- Calculate the **next expected check-in time** based on severity and treatment type  
-- Append the record to the **Patient Log** for real-time monitoring
+Once the file is uploaded, click **Patient Log** or **Process Capability** to view the dataset or analyze the SPC graphs. The SPC graphs can further be grouped by different categories. 
 
 ### **3️⃣ Review the Patient Log**
 
@@ -122,7 +95,7 @@ Navigate to the **“Patient Log”** tab in the dashboard.
 
 Here you can review all patient entries that have been recorded.  
 After entering new data in the previous step, verify that your patient record appears in the table.
-<img width="1439" height="701" alt="Screenshot 2025-10-18 at 13 30 56" src="https://github.com/user-attachments/assets/9251dfcc-0ef0-4a82-8dd4-f1164708b402" />
+<img width="1422" height="764" alt="Screenshot 2025-10-18 at 15 54 48" src="https://github.com/user-attachments/assets/4f5635a6-51e7-42b8-a628-b1d18154e0b8" />
 
 This tab acts as the central **data log** for monitoring ongoing hospital operations, providing visibility into patient flow and timing across departments.
 
@@ -131,7 +104,7 @@ This tab acts as the central **data log** for monitoring ongoing hospital operat
 Open the **“Process Capability”** tab to evaluate overall system performance and stability.
 
 This section visualizes patient wait-time data using **Statistical Process Control (SPC)** charts to help identify trends, deviations, and potential problem areas.
-<img width="1440" height="701" alt="Screenshot 2025-10-18 at 13 31 16" src="https://github.com/user-attachments/assets/9ffcc540-cc5b-4fd9-9eae-a313926c0a45" />
+<img width="1425" height="765" alt="Screenshot 2025-10-18 at 15 54 58" src="https://github.com/user-attachments/assets/133f84e2-267b-4284-8d47-b1aff7da226f" />
 
 
 Here you can:
