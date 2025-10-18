@@ -99,15 +99,14 @@ Run the following command in R or RStudio to open the dashboard:
 shiny::runApp("hospital_dashboard.R")
 ```
 Once executed, the app will automatically open in your default web browser.
+<img width="1440" height="725" alt="Screenshot 2025-10-18 at 13 34 23" src="https://github.com/user-attachments/assets/99f4b138-3110-4778-b0e1-f72519adeb9d" />
+
 
 ### **2️⃣ Enter Patient Metrics**
 
 Navigate to the **“Enter Patient Metrics”** tab on the dashboard and input the following details for each new patient entry:
+<img width="1440" height="730" alt="Screenshot 2025-10-18 at 13 35 05" src="https://github.com/user-attachments/assets/c6d10639-6ac6-40fa-ace7-319fb59c896e" />
 
-- **Patient ID** – a unique identifier for each patient  
-- **Department** – select from available hospital departments  
-- **Patient Acuity (Severity)** – choose the patient’s condition level (Critical, Moderate, or Stable)  
-- **Treatment Type** – select the relevant treatment (Imaging, Labs, Physicians/ specialized consultancy, Procedure or Rehabilitation)
 
 Once all fields are filled, click **Enter** to record the new data entry.
 
@@ -122,12 +121,7 @@ Navigate to the **“Patient Log”** tab in the dashboard.
 
 Here you can review all patient entries that have been recorded.  
 After entering new data in the previous step, verify that your patient record appears in the table.
-
-Each record will include the following fields:
-- **Timestamp of Entry** – the exact date and time when the data was submitted  
-- **Expected and Actual Check-In Times** – comparison to track delays or early arrivals  
-- **Shift and Section Information** – automatically determined based on the time of entry  
-- **Next Recommended Check-In** – dynamically calculated from patient severity and treatment type  
+<img width="1439" height="701" alt="Screenshot 2025-10-18 at 13 30 56" src="https://github.com/user-attachments/assets/9251dfcc-0ef0-4a82-8dd4-f1164708b402" />
 
 This tab acts as the central **data log** for monitoring ongoing hospital operations, providing visibility into patient flow and timing across departments.
 
@@ -136,6 +130,8 @@ This tab acts as the central **data log** for monitoring ongoing hospital operat
 Open the **“Process Capability”** tab to evaluate overall system performance and stability.
 
 This section visualizes patient wait-time data using **Statistical Process Control (SPC)** charts to help identify trends, deviations, and potential problem areas.
+<img width="1440" height="701" alt="Screenshot 2025-10-18 at 13 31 16" src="https://github.com/user-attachments/assets/9ffcc540-cc5b-4fd9-9eae-a313926c0a45" />
+
 
 Here you can:
 - **Choose a Grouping Variable** – such as *Department*, *Patient Acuity*, *Treatment*, or *Shift*  
@@ -144,7 +140,6 @@ Here you can:
 - **Assess Process Stability** – determine whether variations are random (common cause) or due to specific issues (special cause)  
 - **Support Corrective Actions** – use the insights to guide workflow improvements, resource allocation, or staffing adjustments  
 
-This tab provides the analytical foundation for continuous quality improvement and data-driven decision-making in hospital operations.
 
 ---
 
