@@ -49,3 +49,20 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 - [**Process_flow.md**](Process_flow.md)  
   Root-cause process flow diagram (Mermaid) illustrating patient data and improvement loop.
 
+## 🗂️ Data dictionary
+The dashboard stores each check‑in event in a structured data frame. The following table summarises the key variables:
+| Column                | Description                                                                                             | Example               |
+| --------------------- | ------------------------------------------------------------------------------------------------------- | --------------------- |
+| `Patient_ID`          | Unique identifier for the patient                                                                       | `P012`                |
+| `Status`              | Admitted or Discharged                                                                                  | `Admitted`            |
+| `Department`          | Inpatient ward or service (Cardiology, Emergency, General Surgery, etc.)                                | `Neurology`           |
+| `Patient_Acuity`      | Patient severity level (Critical, Moderate, Stable)                                                     | `Moderate`            |
+| `Treatment`           | Purpose of the visit (Procedures, Imaging, Physician/Specialized Consultancy, Labs, **Rehabilitation**) | `Rehabilitation`      |
+| `Expected_Checkin`    | Time when the next check‑in was previously scheduled                                                    | `18-10-2025 14:00:00` |
+| `Time_Stamp`          | Timestamp of the current check‑in event                                                                 | `18-10-2025 10:30:00` |
+| `Percent_deviation`   | Percentage deviation from the expected interval (positive = delay)                                      | `+25.0`               |
+| `Shift`               | Numeric shift label (1 = day, 2 = evening, 3 = night) computed from `curr_time`                         | `1`                   |
+| `Shift_Section`       | Segment of the shift (“Beginning”, “Middle”, “End”) used for subgroup analysis                          | `Beginning`           |
+| `Weekend`             | Boolean indicating whether the visit occurred on a weekend                                              | `TRUE`                |
+| `Next_Checkin`        | Calculated ideal next check‑in time based on severity and treatment                                     | `19-10-2025 10:30:00` |
+| `Subgroup` (internal) | Numeric subgroup combining shift and section for SPC analysis 
