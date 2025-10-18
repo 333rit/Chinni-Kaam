@@ -19,7 +19,10 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 ## 📁 Repository Contents
 
 - [**dashboard_functions.R**](dashboard_functions.R)  
-  Core logic and analytics functions — includes statistical process control helpers  
+  Core logic and analytics functions
+
+- [**functions_process_control.R**](functions_process_control.R)  
+  Functions for statistical process control helpers
 
 - [**hospital_dashboard.R**](hospital_dashboard.R)  
   Main R Shiny application file containing the user interface (UI) and server logic.
