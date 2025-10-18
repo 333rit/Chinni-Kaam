@@ -85,4 +85,82 @@ shiny::runApp("hospital_dashboard.R")
 
 ---
 
+## 📊 Example Workflow
+
+This example demonstrates how to use the **Hospital Wait-Time Monitoring Dashboard** from start to finish.
+
+---
+
+### **1️⃣ Launch the App**
+
+Run the following command in R or RStudio to open the dashboard:
+
+```r
+shiny::runApp("hospital_dashboard.R")
+```
+Once executed, the app will automatically open in your default web browser.
+
+### **2️⃣ Enter Patient Metrics**
+
+Navigate to the **“Enter Patient Metrics”** tab on the dashboard and input the following details for each new patient entry:
+
+- **Patient ID** – a unique identifier for each patient  
+- **Department** – select from available hospital departments  
+- **Patient Acuity (Severity)** – choose the patient’s condition level (Critical, Moderate, or Stable)  
+- **Treatment Type** – select the relevant treatment (Imaging, Labs, Physicians/ specialized consultancy, Procedure or Rehabilitation)
+
+Once all fields are filled, click **Enter** to record the new data entry.
+
+The system will automatically:
+- Assign the appropriate **shift and section** based on the current time  
+- Calculate the **next expected check-in time** based on severity and treatment type  
+- Append the record to the **Patient Log** for real-time monitoring
+
+### **3️⃣ Review the Patient Log**
+
+Navigate to the **“Patient Log”** tab in the dashboard.
+
+Here you can review all patient entries that have been recorded.  
+After entering new data in the previous step, verify that your patient record appears in the table.
+
+Each record will include the following fields:
+- **Timestamp of Entry** – the exact date and time when the data was submitted  
+- **Expected and Actual Check-In Times** – comparison to track delays or early arrivals  
+- **Shift and Section Information** – automatically determined based on the time of entry  
+- **Next Recommended Check-In** – dynamically calculated from patient severity and treatment type  
+
+This tab acts as the central **data log** for monitoring ongoing hospital operations, providing visibility into patient flow and timing across departments.
+
+### **4️⃣ Analyze Process Capability**
+
+Open the **“Process Capability”** tab to evaluate overall system performance and stability.
+
+This section visualizes patient wait-time data using **Statistical Process Control (SPC)** charts to help identify trends, deviations, and potential problem areas.
+
+Here you can:
+- **Choose a Grouping Variable** – such as *Department*, *Patient Acuity*, *Treatment*, or *Shift*  
+- **View X-bar Control Charts** – displaying average deviations and ±3 σ control limits  
+- **Detect Special Causes of Variation** – identify abnormal patterns or spikes in wait times  
+- **Assess Process Stability** – determine whether variations are random (common cause) or due to specific issues (special cause)  
+- **Support Corrective Actions** – use the insights to guide workflow improvements, resource allocation, or staffing adjustments  
+
+This tab provides the analytical foundation for continuous quality improvement and data-driven decision-making in hospital operations.
+
+---
+
+## ⚙️ Troubleshooting Guide
+
+| 🧩 Issue | 💡 Possible Cause | 🛠️ Recommended Solution |
+|-----------|-------------------|--------------------------|
+| App fails to start | Missing or outdated R packages | Re-install packages and make sure all necessary packages are installed |
+| “object 'get_info' not found” | Function file not sourced | Ensure the helper file is loaded |
+| Blank or missing plots | `ggplot2` or `ggpubr` not installed | Reinstall required packages |
+| Timestamps not displaying correctly | Incorrect time format or locale settings | Verify respective conversions using |
+| Error: *cannot find shiny app* | Wrong working directory | Set directory to project root |
+| Dashboard not opening in browser | R session blocked or firewall issue | Try running again or open manually |
+| Data not updating in table | Reactive data not refreshing | Check `observeEvent()` logic and ensure reactive objects are used properly |
+| Slow dashboard loading | Large datasets or too many render calls | Sample smaller data or optimize reactive blocks |
+
+---
+
 
