@@ -76,6 +76,7 @@ Load the backend functions that support the dashboard’s analytics:
 
 ```r
 source("dashboard_functions.R")
+source("functions_process_control.R")
 ```
 
 ### **3️⃣ Launch the Shiny App**
