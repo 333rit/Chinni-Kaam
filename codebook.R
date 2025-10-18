@@ -14,8 +14,8 @@ library(ggExtra)
 library(tidyverse)
 library(lubridate)
 
-source("dashboard_functions.R")
-source("functions_process_control.R")
+# source("dashboard_functions.R")
+# source("functions_process_control.R")
 
 ui <- dashboardPage(
   dashboardHeader(title = "Patient Wait Times"),
