@@ -31,12 +31,21 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 > *“Are there special-cause variations across shifts or days?”*
 
 ---
+ 
+## 📁 Repository Contents
 
-## 🗂 Repository Structure  
-hospital_wait_times_dashboard/
-│
-├── dashboard_functions.R # Core logic and analytics functions
-├── hospital_dashboard.R # Main Shiny UI + server code
-├── README.md # This file
-├── CODEME.md # Core funtions and Shiny UI + server code
-├── Process_flow.md # Flow of the entire process
+- [**dashboard_functions.R**](dashboard_functions.R)  
+  Core logic and analytics functions — includes statistical process control helpers  
+
+- [**hospital_dashboard.R**](hospital_dashboard.R)  
+  Main R Shiny application file containing the user interface (UI) and server logic.
+
+- [**README.md**](README.md)  
+  This file!. Main project documentation —- setup instructions, overview, and feature guide.
+
+- [**CODEME.md**](CODEME.md)  
+  In-depth code explanations -- breakdown of core functions and Shiny server flow.
+
+- [**Process_flow.md**](Process_flow.md)  
+  Root-cause process flow diagram (Mermaid) illustrating patient data and improvement loop.
+
