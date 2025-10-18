@@ -24,7 +24,7 @@ This project delivers an interactive **R Shiny** dashboard allowing hospital sta
 - [**functions_process_control.R**](functions_process_control.R)  
   Functions for statistical process control helpers
 
-- [**codebook.R**](CODEBOOK.R)  
+- [**codebook.R**](codebook.R)  
   Main R Shiny application file containing the user interface (UI) and server logic.
 
 - [**README.md**](README.md)  
