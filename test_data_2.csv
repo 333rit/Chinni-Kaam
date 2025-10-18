@@ -1,0 +1,338 @@
+﻿Patient_ID,Department,Treatment,Patient_Acuity,ID of staff to last check-in,ID of staff to check-in next,Exp_Checkin,Time_Stamp,Next_Checkin,Percent_deviation,Shift,Shift_Section,Weekend
+P0051,General Surgery,Labs,Critical,L1,L1,10/17/25 3:12,10/17/25 4:05,10/17/25 4:07,96.01199399,3,Middle,TRUE
+P0051,General Surgery,Labs,Critical,L1,N5,10/17/25 4:07,10/17/25 5:26,10/17/25 4:52,176.8970699,3,Middle,TRUE
+P0051,General Surgery,Procedures,Critical,N5,I1,10/17/25 4:52,10/17/25 5:11,10/17/25 5:02,179.375,3,End,TRUE
+P0051,General Surgery,Imaging,Critical,I1,L1,10/17/25 5:02,10/17/25 6:34,10/17/25 6:36,97.87045252,3,End,TRUE
+P0051,General Surgery,Labs,Critical,L1,L1,10/17/25 6:36,10/17/25 8:41,10/17/25 8:36,104.5270929,3,End,TRUE
+P0051,General Surgery,Labs,Critical,L1,I1,10/17/25 8:36,10/17/25 13:36,10/17/25 13:50,95.50639291,1,Beginning,TRUE
+P0051,General Surgery,Imaging,Critical,I1,N7,10/17/25 13:50,10/17/25 16:09,10/17/25 16:25,89.27038627,1,End,TRUE
+P0051,General Surgery,Procedures,Critical,N7,N7,10/17/25 16:25,10/17/25 18:22,10/17/25 18:27,95.44085433,2,Beginning,TRUE
+P0052,Emergency,Imaging,Moderate,I1,D2,10/17/25 8:01,10/17/25 9:53,10/17/25 9:37,116.4752957,1,Beginning,TRUE
+P0052,Emergency,Physicians / Specialized Consultancy,Moderate,D2,PT1,10/17/25 9:37,10/17/25 10:02,10/17/25 10:07,83.64745009,1,Beginning,TRUE
+P0052,Emergency,Rehabilitation,Moderate,PT1,N2,10/17/25 10:07,10/17/25 11:28,10/17/25 11:26,103.6024582,1,Middle,TRUE
+P0052,Emergency,Procedures,Moderate,N2,N2,10/17/25 11:26,10/17/25 12:15,10/17/25 11:56,162.3484014,1,Middle,TRUE
+P0052,Emergency,Procedures,Moderate,N2,L1,10/17/25 11:56,10/17/25 12:52,10/17/25 12:40,127.922815,1,Middle,TRUE
+P0052,Emergency,Labs,Moderate,L1,L1,10/17/25 12:40,10/17/25 14:21,10/17/25 14:25,95.63014567,1,End,TRUE
+P0052,Emergency,Labs,Moderate,L1,D2,10/17/25 14:25,10/17/25 15:16,10/17/25 16:57,33.64855949,1,End,TRUE
+P0053,Oncology,Physicians / Specialized Consultancy,Moderate,D6,I1,10/17/25 1:32,10/17/25 2:09,10/17/25 2:06,108.3996024,3,Beginning,TRUE
+P0053,Cardiology,Imaging,Moderate,I1,PT2,10/17/25 2:06,10/17/25 3:19,10/17/25 3:08,116.4841037,3,Middle,TRUE
+P0053,Cardiology,Rehabilitation,Moderate,PT2,PT2,10/17/25 3:08,10/17/25 5:41,10/17/25 5:23,113.2077809,3,Middle,TRUE
+P0053,Cardiology,Rehabilitation,Moderate,PT2,L1,10/17/25 5:23,10/17/25 7:53,10/17/25 7:46,105.3744596,3,End,TRUE
+P0053,Cardiology,Labs,Moderate,L1,I1,10/17/25 7:46,10/17/25 8:21,10/17/25 8:09,152.4857955,1,Beginning,TRUE
+P0053,Intensive Care,Imaging,Moderate,I1,D3,10/17/25 8:09,10/17/25 10:57,10/17/25 10:58,99.30124987,1,Beginning,TRUE
+P0053,Intensive Care,Physicians / Specialized Consultancy,Moderate,D3,N3,10/17/25 10:58,10/17/25 11:51,10/17/25 11:59,85.75327511,1,Middle,TRUE
+P0054,Orthopedics,Imaging,Moderate,I1,I1,10/17/25 11:51,10/17/25 15:11,10/17/25 23:00,29.96117665,1,Middle,TRUE
+P0054,Neurology,Imaging,Moderate,I1,I1,10/17/25 23:00,10/18/25 0:53,10/18/25 1:00,93.934335,3,Beginning,TRUE
+P0054,Neurology,Imaging,Stable,I1,D7,10/18/25 1:00,10/18/25 3:05,10/18/25 2:52,111.1028537,3,Beginning,TRUE
+P0054,Neurology,Physicians / Specialized Consultancy,Stable,D7,L1,10/18/25 2:52,10/18/25 3:41,10/18/25 3:48,86.03268946,3,Beginning,TRUE
+P0054,Neurology,Labs,Stable,L1,I1,10/18/25 3:48,10/18/25 6:26,10/18/25 6:42,90.28057072,3,Beginning,TRUE
+P0054,Neurology,Imaging,Stable,I1,PT1,10/18/25 6:42,10/18/25 7:20,10/18/25 7:26,86.20423892,3,Beginning,TRUE
+P0054,Neurology,Rehabilitation,Stable,PT1,L1,10/18/25 7:26,10/18/25 9:30,10/18/25 9:43,90.58524173,3,Beginning,TRUE
+P0055,General Surgery,Procedures,Stable,N5,I1,10/17/25 10:38,10/17/25 14:49,10/17/25 17:52,57.87069032,1,Middle,TRUE
+P0055,General Surgery,Imaging,Stable,I1,N5,10/17/25 17:52,10/17/25 19:37,10/17/25 19:23,115.7536765,2,Middle,TRUE
+P0055,General Surgery,Procedures,Stable,N5,N5,10/17/25 19:23,10/17/25 21:04,10/17/25 20:56,108.5110195,2,Middle,TRUE
+P0055,General Surgery,Procedures,Stable,N5,L1,10/17/25 20:56,10/17/25 22:04,10/18/25 3:25,17.43677668,2,End,TRUE
+P0055,General Surgery,Labs,Stable,L1,N5,10/18/25 3:25,10/18/25 5:55,10/18/25 6:03,95.02162219,3,Beginning,TRUE
+P0055,General Surgery,Procedures,Stable,N5,I1,10/18/25 6:03,10/18/25 7:24,10/18/25 7:28,95.03324208,3,Beginning,TRUE
+P0056,General Surgery,Rehabilitation,Critical,PT1,PT1,10/17/25 9:39,10/17/25 12:37,10/17/25 12:44,95.88425593,1,Beginning,TRUE
+P0056,General Surgery,Rehabilitation,Critical,PT1,D5,10/17/25 12:44,10/17/25 14:18,10/17/25 14:06,115.2667075,1,End,TRUE
+P0056,General Surgery,Physicians / Specialized Consultancy,Critical,D5,I1,10/17/25 14:06,10/17/25 15:32,10/17/25 14:07,8618.333395,1,End,TRUE
+P0056,General Surgery,Imaging,Critical,I1,D5,10/17/25 14:07,10/17/25 14:41,10/17/25 14:56,69.96249573,1,End,TRUE
+P0056,General Surgery,Physicians / Specialized Consultancy,Critical,D5,I1,10/17/25 14:56,10/17/25 15:48,10/17/25 15:29,157.9585649,1,End,TRUE
+P0056,General Surgery,Imaging,Critical,I1,D5,10/17/25 15:29,10/17/25 16:55,10/17/25 17:09,86.19023821,2,Beginning,TRUE
+P0056,General Surgery,Physicians / Specialized Consultancy,Critical,D5,I1,10/17/25 17:09,10/17/25 19:11,10/17/25 19:28,87.22235491,2,Beginning,TRUE
+P0056,General Surgery,Imaging,Critical,I1,N5,10/17/25 19:28,10/18/25 0:11,10/17/25 23:53,106.7578642,2,Middle,TRUE
+P0057,Neurology,Physicians / Specialized Consultancy,Moderate,D7,L1,10/17/25 8:22,10/17/25 9:43,10/17/25 13:06,28.5613747,1,Beginning,TRUE
+P0057,Neurology,Labs,Moderate,L1,PT1,10/17/25 13:06,10/17/25 13:41,10/17/25 13:40,102.970297,1,End,TRUE
+P0057,Neurology,Rehabilitation,Moderate,PT1,N7,10/17/25 13:40,10/17/25 15:42,10/17/25 15:52,92.18573047,1,End,TRUE
+P0057,Neurology,Procedures,Moderate,N7,I1,10/17/25 15:52,10/17/25 18:15,10/17/25 17:59,113.1665569,2,Beginning,TRUE
+P0057,Emergency,Imaging,Moderate,I1,N2,10/17/25 17:59,10/17/25 19:18,10/18/25 1:08,18.42555176,2,Middle,TRUE
+P0057,Emergency,Procedures,Moderate,N2,I1,10/18/25 1:08,10/18/25 1:35,10/18/25 1:22,197.1496437,3,Beginning,TRUE
+P0057,Emergency,Imaging,Moderate,I1,D2,10/18/25 1:22,10/18/25 3:04,10/18/25 2:59,105.0206327,3,Beginning,TRUE
+P0058,Neurology,Labs,Critical,L1,L1,10/17/25 11:31,10/17/25 12:05,10/17/25 11:53,150.0373971,1,Middle,TRUE
+P0058,Neurology,Labs,Critical,L1,PT1,10/17/25 11:53,10/17/25 12:57,10/17/25 12:52,109.8797251,1,Middle,TRUE
+P0058,Neurology,Rehabilitation,Critical,PT1,D7,10/17/25 12:52,10/17/25 13:16,10/17/25 13:11,123.1686542,1,End,TRUE
+P0058,Neurology,Physicians / Specialized Consultancy,Critical,D7,I1,10/17/25 13:11,10/17/25 15:03,10/17/25 14:49,113.4961004,1,End,TRUE
+P0058,Neurology,Imaging,Critical,I1,D7,10/17/25 14:49,10/17/25 16:31,10/17/25 16:39,92.77456648,1,End,TRUE
+P0058,Neurology,Physicians / Specialized Consultancy,Critical,D7,I1,10/17/25 16:39,10/17/25 21:02,10/17/25 20:59,101.4703994,2,Beginning,TRUE
+P0058,Neurology,Imaging,Critical,I1,N7,10/17/25 20:59,10/17/25 21:32,10/17/25 21:42,77.48934521,2,End,TRUE
+P0058,Neurology,Procedures,Critical,N7,L1,10/17/25 21:42,10/17/25 23:37,10/17/25 23:49,91.15102255,2,End,TRUE
+P0059,Orthopedics,Physicians / Specialized Consultancy,Stable,D1,D1,10/17/25 9:12,10/17/25 10:24,10/17/25 10:09,126.2010021,1,Beginning,TRUE
+P0059,Orthopedics,Physicians / Specialized Consultancy,Stable,D1,L1,10/17/25 10:09,10/17/25 10:42,10/17/25 10:46,88.52017937,1,Middle,TRUE
+P0059,Oncology,Labs,Stable,L1,L1,10/17/25 10:46,10/17/25 13:31,10/17/25 13:46,91.5447305,1,Middle,TRUE
+P0059,Oncology,Labs,Stable,L1,D6,10/17/25 13:46,10/17/25 15:53,10/17/25 15:56,97.56503909,1,End,TRUE
+P0059,Oncology,Physicians / Specialized Consultancy,Stable,D6,PT1,10/17/25 15:56,10/17/25 16:54,10/17/25 17:13,74.57407806,2,Beginning,TRUE
+P0059,Oncology,Rehabilitation,Stable,PT1,N6,10/17/25 17:13,10/17/25 21:29,10/17/25 21:42,95.3881534,2,Beginning,TRUE
+P0060,Intensive Care,Rehabilitation,Critical,PT2,PT2,10/17/25 2:04,10/17/25 4:04,10/17/25 3:53,109.6077835,3,Middle,TRUE
+P0060,Intensive Care,Rehabilitation,Critical,PT2,I1,10/17/25 3:53,10/17/25 7:46,10/17/25 8:05,92.12525599,3,Middle,TRUE
+P0060,Intensive Care,Imaging,Critical,I1,I1,10/17/25 8:05,10/17/25 8:21,10/17/25 8:39,47.92396198,1,Beginning,TRUE
+P0060,Intensive Care,Imaging,Critical,I1,N3,10/17/25 8:39,10/17/25 9:05,10/17/25 12:38,11.02060707,1,Beginning,TRUE
+P0060,Intensive Care,Procedures,Critical,N3,D3,10/17/25 12:38,10/17/25 14:09,10/17/25 14:14,94.90080056,1,End,TRUE
+P0060,Intensive Care,Physicians / Specialized Consultancy,Critical,D3,L1,10/17/25 14:14,10/17/25 16:31,10/17/25 16:37,95.86728754,1,End,TRUE
+P0060,Intensive Care,Labs,Critical,L1,I1,10/17/25 16:37,10/17/25 22:32,10/17/25 22:20,103.6487473,2,Beginning,TRUE
+P0060,Intensive Care,Imaging,Critical,I1,N3,10/17/25 22:20,10/18/25 2:32,10/18/25 2:26,102.5121885,2,End,TRUE
+P0061,Cardiology,Rehabilitation,Critical,PT2,L1,10/17/25 5:30,10/17/25 7:55,10/17/25 7:58,98.29954956,3,End,TRUE
+P0061,Cardiology,Labs,Critical,L1,L1,10/17/25 7:58,10/17/25 9:25,10/17/25 9:11,120.1646091,1,Beginning,TRUE
+P0061,Cardiology,Labs,Critical,L1,N4,10/17/25 9:11,10/17/25 9:45,10/17/25 9:54,79.24601633,1,Beginning,TRUE
+P0061,Cardiology,Procedures,Critical,N4,N4,10/17/25 9:54,10/17/25 10:58,10/17/25 10:52,110.1457559,1,Middle,TRUE
+P0061,Cardiology,Procedures,Critical,N4,D4,10/17/25 10:52,10/17/25 13:13,10/17/25 13:25,92.12761324,1,Middle,TRUE
+P0061,Cardiology,Physicians / Specialized Consultancy,Critical,D4,N4,10/17/25 13:25,10/17/25 15:01,10/17/25 16:35,50.71635756,1,End,TRUE
+P0061,Cardiology,Procedures,Critical,N4,D4,10/17/25 16:35,10/17/25 16:52,10/17/25 16:44,183.8487973,2,Beginning,TRUE
+P0061,Cardiology,Physicians / Specialized Consultancy,Critical,D4,L1,10/17/25 16:44,10/17/25 18:18,10/17/25 18:10,109.5728155,2,Beginning,TRUE
+P0062,Oncology,Procedures,Critical,N4,I1,10/17/25 11:47,10/17/25 12:48,10/17/25 11:53,1033.707866,1,Middle,TRUE
+P0062,Oncology,Imaging,Critical,I1,,10/17/25 11:53,10/17/25 14:29,10/17/25 14:41,93.37301587,1,Middle,TRUE
+P0062,Oncology,Imaging,Critical,I1,N6,10/17/25 14:41,10/17/25 16:13,10/17/25 15:56,123.0395405,1,End,TRUE
+P0062,Oncology,Procedures,Critical,N6,I1,10/17/25 15:56,10/17/25 17:25,10/17/25 17:22,103.6784741,2,Beginning,TRUE
+P0062,Oncology,Imaging,Critical,I1,PT1,10/17/25 17:22,10/17/25 20:18,10/17/25 20:29,93.94423726,2,Beginning,TRUE
+P0062,Oncology,Rehabilitation,Critical,PT1,L1,10/17/25 20:29,10/17/25 23:28,10/17/25 23:25,101.3359864,2,End,TRUE
+P0062,Oncology,Labs,Critical,L1,PT1,10/17/25 23:25,10/18/25 0:33,10/18/25 0:19,125.4641089,3,Beginning,TRUE
+P0062,Oncology,Rehabilitation,Critical,,D6,10/18/25 0:19,10/18/25 2:02,10/18/25 3:49,49.19803081,3,Beginning,TRUE
+P0063,Cardiology,Imaging,Stable,I1,PT2,10/17/25 10:35,10/17/25 15:28,10/17/25 22:38,40.50227152,1,Middle,TRUE
+P0063,Cardiology,Rehabilitation,Stable,PT2,I1,10/17/25 22:38,10/18/25 0:58,10/18/25 0:43,111.5184642,2,End,TRUE
+P0063,Cardiology,Imaging,Stable,I1,D4,10/18/25 0:43,10/18/25 3:54,10/18/25 3:43,105.8883437,3,Beginning,TRUE
+P0063,Cardiology,Physicians / Specialized Consultancy,Stable,D4,I1,10/18/25 3:43,10/18/25 7:41,10/18/25 8:00,92.7926758,3,Beginning,TRUE
+P0063,Cardiology,Imaging,Stable,I1,L1,10/18/25 8:00,10/18/25 10:29,10/18/25 10:41,92.56044637,3,Middle,TRUE
+P0064,General Surgery,Labs,Stable,L1,L1,10/17/25 7:04,10/17/25 10:56,10/17/25 10:57,99.57078475,1,Beginning,TRUE
+P0064,General Surgery,Labs,Stable,L1,,10/17/25 10:57,10/17/25 13:12,10/17/25 14:38,61.01924233,1,Middle,TRUE
+P0064,General Surgery,Physicians / Specialized Consultancy,Stable,D5,L1,10/17/25 14:38,10/17/25 18:34,10/17/25 18:35,99.57805907,1,End,TRUE
+P0064,General Surgery,Labs,Stable,L1,N5,10/17/25 18:35,10/17/25 21:13,10/17/25 21:11,101.545396,2,Middle,TRUE
+P0064,General Surgery,Procedures,Stable,N5,N5,10/17/25 21:11,10/17/25 21:55,10/17/25 22:09,75.91472199,2,End,TRUE
+P0065,Cardiology,Rehabilitation,Critical,PT1,I1,10/17/25 6:32,10/17/25 9:20,10/17/25 9:26,96.1821132,3,End,TRUE
+P0065,Cardiology,Imaging,Critical,I1,I1,10/17/25 9:26,10/17/25 11:45,10/17/25 11:36,107.1391753,1,Beginning,TRUE
+P0065,Cardiology,Imaging,Critical,I1,N4,10/17/25 11:36,10/17/25 12:36,10/17/25 12:32,107.3833432,1,Middle,TRUE
+P0065,Cardiology,Procedures,Critical,N4,,10/17/25 12:32,10/17/25 12:57,10/17/25 13:07,70.25346724,1,End,TRUE
+P0065,Cardiology,Rehabilitation,Critical,PT2,L1,10/17/25 13:07,10/17/25 13:22,10/17/25 13:15,194.8275863,1,End,TRUE
+P0065,Cardiology,Labs,Critical,L1,L1,10/17/25 13:15,10/17/25 15:45,10/17/25 15:55,93.6223167,1,End,TRUE
+P0065,Cardiology,Labs,Critical,L1,N1,10/17/25 15:55,10/17/25 17:14,10/17/25 17:08,108.4481175,2,Beginning,TRUE
+P0065,Orthopedics,Procedures,Critical,N1,D1,10/17/25 17:08,10/17/25 17:28,10/17/25 17:29,95.2718676,2,Beginning,TRUE
+P0066,Emergency,Physicians / Specialized Consultancy,Critical,D2,L1,10/17/25 7:35,10/17/25 8:15,10/17/25 8:23,82.42487771,1,Beginning,TRUE
+P0066,Intensive Care,Labs,Critical,L1,L1,10/17/25 8:23,10/17/25 11:19,10/17/25 11:10,105.2453469,1,Beginning,TRUE
+P0066,Intensive Care,Labs,Critical,L1,N3,10/17/25 11:10,10/17/25 12:42,10/17/25 12:51,91.63339987,1,Middle,TRUE
+P0066,Intensive Care,Procedures,Critical,N3,L1,10/17/25 12:51,10/17/25 14:57,10/17/25 14:53,103.6274376,1,End,TRUE
+P0066,Intensive Care,Labs,Critical,L1,I1,10/17/25 14:53,10/17/25 15:49,10/17/25 15:38,125,1,End,TRUE
+P0066,Intensive Care,Imaging,Critical,I1,L1,10/17/25 15:38,10/17/25 16:35,10/17/25 16:50,78.79899152,2,Beginning,TRUE
+P0066,Intensive Care,Labs,Critical,L1,I1,10/17/25 16:50,10/17/25 17:19,10/17/25 17:35,63.78277154,2,Beginning,TRUE
+P0066,Intensive Care,Imaging,Critical,I1,N3,10/17/25 17:35,10/17/25 18:01,10/17/25 18:18,61.0983103,2,Beginning,TRUE
+P0067,Cardiology,Physicians / Specialized Consultancy,Stable,D4,I1,10/17/25 9:44,10/17/25 11:57,10/17/25 11:58,98.78336437,1,Middle,TRUE
+P0067,Cardiology,Imaging,Stable,I1,N4,10/17/25 11:58,10/17/25 12:57,10/17/25 12:45,125.2951699,1,Middle,TRUE
+P0067,Cardiology,Procedures,Stable,N4,PT2,10/17/25 12:45,10/17/25 17:02,10/17/25 15:45,142.6654327,1,End,TRUE
+P0067,Cardiology,Rehabilitation,Stable,PT2,I1,10/17/25 15:45,10/17/25 18:58,10/17/25 18:28,119.0310355,2,Beginning,TRUE
+P0067,Cardiology,Imaging,Stable,I1,D4,10/17/25 18:28,10/17/25 23:56,10/18/25 0:00,98.58823529,2,Middle,TRUE
+P0068,Neurology,Procedures,Moderate,N7,N7,10/17/25 8:27,10/17/25 9:08,10/17/25 9:23,72.51725173,1,Beginning,TRUE
+P0068,Neurology,Procedures,Moderate,N7,D7,10/17/25 9:23,10/17/25 13:16,10/17/25 12:33,122.8859649,1,Beginning,TRUE
+P0068,Neurology,Physicians / Specialized Consultancy,Moderate,D7,D7,10/17/25 12:33,10/17/25 14:34,10/17/25 14:38,96.85794169,1,End,TRUE
+P0068,Neurology,Physicians / Specialized Consultancy,Moderate,D7,D7,10/17/25 14:38,10/17/25 17:52,10/17/25 15:58,241.1362223,1,End,TRUE
+P0068,Neurology,Physicians / Specialized Consultancy,Moderate,D7,L1,10/17/25 15:58,10/17/25 18:13,10/17/25 17:59,111.4234532,2,Beginning,TRUE
+P0068,Neurology,Labs,Moderate,L1,PT1,10/17/25 17:59,10/17/25 18:29,10/17/25 18:27,105.1129608,2,Middle,TRUE
+P0068,Neurology,Rehabilitation,Moderate,PT1,N7,10/17/25 18:27,10/17/25 20:51,10/17/25 21:09,89.33443572,2,Middle,TRUE
+P0069,General Surgery,Physicians / Specialized Consultancy,Stable,D5,L1,10/17/25 11:59,10/17/25 16:15,10/17/25 16:01,105.6379618,1,Middle,TRUE
+P0069,General Surgery,Labs,Stable,L1,PT2,10/17/25 16:01,10/17/25 21:03,10/17/25 21:23,93.8199917,2,Beginning,TRUE
+P0069,General Surgery,Rehabilitation,Stable,PT2,L1,10/17/25 21:23,10/17/25 23:03,10/17/25 23:22,84.46153847,2,End,TRUE
+P0069,General Surgery,Labs,Stable,L1,L1,10/17/25 23:22,10/18/25 4:05,10/18/25 4:19,95.18416774,3,Beginning,TRUE
+P0069,General Surgery,Labs,Stable,L1,N5,10/18/25 4:19,10/18/25 9:58,,-0.000512126,3,Beginning,TRUE
+P0070,Emergency,Physicians / Specialized Consultancy,Stable,D2,PT1,10/17/25 0:15,10/17/25 4:38,10/17/25 4:33,101.9048234,3,Beginning,TRUE
+P0070,Emergency,Rehabilitation,Stable,PT1,I1,10/17/25 4:33,10/17/25 8:48,10/17/25 8:41,102.8171855,3,End,TRUE
+P0070,Emergency,Imaging,Stable,I1,D2,10/17/25 8:41,10/17/25 9:28,10/17/25 9:25,106.2313433,1,Beginning,TRUE
+P0070,Emergency,Physicians / Specialized Consultancy,Stable,D2,I1,10/17/25 9:25,10/17/25 9:50,10/17/25 9:54,84.21358096,1,Beginning,TRUE
+P0070,Emergency,Imaging,Stable,I1,I1,10/17/25 9:54,10/17/25 11:33,10/17/25 11:26,107.4727273,1,Middle,TRUE
+P0070,Emergency,Imaging,Stable,I1,N2,10/17/25 11:26,10/17/25 12:53,10/17/25 11:27,8760.000063,1,Middle,TRUE
+P0071,Emergency,Procedures,Stable,N2,N2,10/17/25 1:17,10/17/25 5:34,10/17/25 5:35,99.31047816,3,Beginning,TRUE
+P0071,Emergency,Procedures,Stable,N2,PT1,10/17/25 5:35,10/17/25 7:39,10/17/25 7:57,87.67800401,3,End,TRUE
+P0071,Emergency,Rehabilitation,Stable,PT1,L1,10/17/25 7:57,10/17/25 13:40,10/17/25 13:32,102.2851465,1,Beginning,TRUE
+P0071,Emergency,Labs,Stable,L1,PT2,10/17/25 13:32,10/17/25 18:48,10/17/25 18:30,105.870502,1,End,TRUE
+P0071,Emergency,Rehabilitation,Stable,PT2,D2,10/17/25 18:30,10/18/25 0:06,10/17/25 23:46,106.0740272,2,Middle,TRUE
+P0072,Orthopedics,Rehabilitation,Stable,PT1,PT2,10/17/25 5:32,10/17/25 7:26,10/17/25 7:44,86.23307605,3,End,TRUE
+P0072,Orthopedics,Rehabilitation,Stable,PT2,I1,10/17/25 7:44,10/17/25 12:43,10/17/25 12:36,102.3019943,1,Beginning,TRUE
+P0072,Orthopedics,Imaging,Stable,I1,L1,10/17/25 12:36,10/17/25 16:35,10/17/25 15:42,128.5727093,1,End,TRUE
+P0072,Orthopedics,Labs,Stable,L1,I1,10/17/25 15:42,10/17/25 19:13,10/17/25 19:22,95.91357089,2,Beginning,TRUE
+P0072,Orthopedics,Imaging,Stable,I1,D1,10/17/25 19:22,10/17/25 22:10,10/17/25 22:17,96.01028376,2,Middle,TRUE
+P0072,Orthopedics,Physicians / Specialized Consultancy,Stable,D1,N1,10/17/25 22:17,10/17/25 23:07,10/17/25 22:53,136.3469482,2,End,TRUE
+P0073,Neurology,Rehabilitation,Moderate,PT2,D7,10/17/25 6:11,10/17/25 8:32,10/17/25 8:30,101.612127,3,End,TRUE
+P0073,Neurology,Physicians / Specialized Consultancy,Moderate,D7,D7,10/17/25 8:30,10/17/25 10:18,10/17/25 10:21,97.33834587,1,Beginning,TRUE
+P0073,Neurology,Physicians / Specialized Consultancy,Moderate,D7,I1,10/17/25 10:21,10/17/25 10:42,10/17/25 10:59,54.3867307,1,Middle,TRUE
+P0073,Neurology,Imaging,Moderate,I1,I1,10/17/25 10:59,10/17/25 14:18,10/17/25 14:20,98.90692282,1,Middle,TRUE
+P0073,Orthopedics,Imaging,Moderate,I1,L1,10/17/25 14:20,10/17/25 15:09,10/17/25 15:07,103.0464045,1,End,TRUE
+P0073,Orthopedics,Labs,Moderate,L1,L1,10/17/25 15:07,10/17/25 16:08,10/17/25 16:21,82.08014408,2,Beginning,TRUE
+P0073,Orthopedics,Labs,Moderate,L1,N1,10/17/25 16:21,10/17/25 19:53,10/17/25 20:10,92.59448417,2,Beginning,TRUE
+P0074,Orthopedics,Procedures,Critical,N11,N1,10/17/25 9:53,10/17/25 10:22,10/17/25 10:41,59.80828484,1,Middle,TRUE
+P0074,Orthopedics,Procedures,Critical,N1,I1,10/17/25 10:41,10/17/25 11:30,10/17/25 11:42,80.41493776,1,Middle,TRUE
+P0074,Orthopedics,Imaging,Critical,I1,D1,10/17/25 11:42,10/17/25 16:29,10/17/25 16:15,105.0295318,1,Middle,TRUE
+P0074,Orthopedics,Physicians / Specialized Consultancy,Critical,D1,N1,10/17/25 16:15,10/17/25 19:45,10/17/25 19:56,94.85416352,2,Beginning,TRUE
+P0074,Orthopedics,Procedures,Critical,N1,PT2,10/17/25 19:56,10/17/25 21:10,10/17/25 21:09,102.0169608,2,Middle,TRUE
+P0074,Orthopedics,Rehabilitation,Critical,PT2,PT2,10/17/25 21:09,10/18/25 2:36,10/18/25 2:19,105.6428187,2,End,TRUE
+P0074,Intensive Care,Rehabilitation,Critical,PT2,L1,10/18/25 2:19,10/18/25 4:16,10/18/25 4:04,111.1390812,3,Beginning,TRUE
+P0074,Intensive Care,Labs,Moderate,L1,D3,10/18/25 4:04,10/18/25 5:55,10/18/25 6:06,90.33757004,3,Beginning,TRUE
+P0075,Neurology,Labs,Critical,L1,I1,10/17/25 5:44,10/17/25 6:59,10/17/25 7:11,85.81790418,3,End,TRUE
+P0075,Neurology,Imaging,Critical,I1,L1,10/17/25 7:11,10/17/25 8:46,10/17/25 8:24,130.5076959,1,Beginning,TRUE
+P0075,Neurology,Labs,Critical,L1,L1,10/17/25 8:24,10/17/25 9:48,10/17/25 9:37,116.3115693,1,Beginning,TRUE
+P0075,Neurology,Labs,Critical,L1,D7,10/17/25 9:37,10/17/25 12:59,10/17/25 12:54,102.1393077,1,Beginning,TRUE
+P0075,Neurology,Physicians / Specialized Consultancy,Critical,D7,PT2,10/17/25 12:54,10/17/25 17:57,10/17/25 17:29,110.4661764,1,End,TRUE
+P0075,Neurology,Rehabilitation,Critical,PT2,N7,10/17/25 17:29,10/17/25 20:10,10/17/25 20:30,89.31136071,2,Beginning,TRUE
+P0075,Neurology,Procedures,Critical,N7,N1,10/17/25 20:30,10/17/25 21:07,10/18/25 3:18,9.109840753,2,End,TRUE
+P0075,Orthopedics,Procedures,Critical,,D1,10/18/25 3:18,10/18/25 4:21,10/18/25 4:08,125.1664447,3,Beginning,TRUE
+P0076,Emergency,Labs,Moderate,L1,PT1,10/17/25 11:01,10/17/25 11:55,10/17/25 11:51,109.7236097,1,Middle,TRUE
+P0076,Emergency,Rehabilitation,Moderate,PT1,L1,10/17/25 11:51,10/17/25 13:47,10/17/25 13:54,94.48192121,1,Middle,TRUE
+P0076,Emergency,Labs,Moderate,L1,D2,10/17/25 13:54,10/17/25 16:24,10/17/25 16:39,90.69532748,1,End,TRUE
+P0076,Emergency,Physicians / Specialized Consultancy,Moderate,D2,D2,10/17/25 16:39,10/17/25 17:29,10/17/25 17:13,147.1315529,2,Beginning,TRUE
+P0076,Emergency,Physicians / Specialized Consultancy,Moderate,D2,I1,10/17/25 17:13,10/17/25 19:00,10/17/25 18:52,108.3333333,2,Beginning,TRUE
+P0076,General Surgery,Imaging,Moderate,I1,I1,10/17/25 18:52,10/17/25 23:41,10/17/25 23:26,105.2280446,2,Middle,TRUE
+P0076,General Surgery,Imaging,Moderate,I1,N2,10/17/25 23:26,10/18/25 1:29,10/18/25 1:27,101.4482759,3,Beginning,TRUE
+P0077,Oncology,Physicians / Specialized Consultancy,Critical,D6,PT2,10/17/25 11:20,10/17/25 13:05,10/17/25 12:46,122.0653645,1,Middle,TRUE
+P0077,Oncology,Rehabilitation,Critical,PT2,PT2,10/17/25 12:46,10/17/25 14:53,10/17/25 14:42,109.9123689,1,End,TRUE
+P0077,Oncology,Rehabilitation,Critical,PT1,D6,10/17/25 14:42,10/17/25 15:19,10/17/25 15:37,68.26073712,1,End,TRUE
+P0077,Oncology,Physicians / Specialized Consultancy,Critical,D6,PT2,10/17/25 15:37,10/17/25 16:40,10/17/25 16:53,83.32241868,2,Beginning,TRUE
+P0077,Oncology,Rehabilitation,Critical,PT2,PT2,10/17/25 16:53,10/17/25 17:44,10/17/25 18:02,73.44769268,2,Beginning,TRUE
+P0077,Oncology,Rehabilitation,Critical,PT2,D6,10/17/25 18:02,10/17/25 22:00,10/17/25 21:59,100.4222676,2,Middle,TRUE
+P0077,Oncology,Physicians / Specialized Consultancy,Critical,D6,L1,10/17/25 21:59,10/17/25 23:26,10/17/25 23:13,117.2999553,2,End,TRUE
+P0077,Oncology,Labs,Moderate,L1,N6,10/17/25 23:13,10/18/25 0:23,10/18/25 0:10,123.9540365,3,Beginning,TRUE
+P0078,Oncology,Physicians / Specialized Consultancy,Stable,D6,D6,10/17/25 0:40,10/17/25 3:34,10/17/25 3:15,112.5121242,3,Beginning,TRUE
+P0078,Oncology,Physicians / Specialized Consultancy,Stable,D6,N6,10/17/25 3:15,10/17/25 6:28,10/17/25 6:11,109.9810427,3,Middle,TRUE
+P0078,Oncology,Procedures,Stable,N6,I1,10/17/25 6:11,10/17/25 9:30,10/17/25 9:27,101.787082,3,End,TRUE
+P0078,Oncology,Imaging,Stable,I1,D6,10/17/25 9:27,10/17/25 10:26,10/17/25 10:35,85.62757951,1,Beginning,TRUE
+P0078,Oncology,Physicians / Specialized Consultancy,Stable,D6,L1,10/17/25 10:35,10/17/25 12:57,10/17/25 12:52,104.1432413,1,Middle,TRUE
+P0079,Emergency,Procedures,Moderate,N2,D2,10/17/25 8:46,10/17/25 11:06,10/17/25 11:23,89.20809923,1,Beginning,TRUE
+P0079,Emergency,Physicians / Specialized Consultancy,Moderate,D2,L1,10/17/25 11:23,10/17/25 11:59,10/17/25 19:01,7.740760968,1,Middle,TRUE
+P0079,Emergency,Labs,Moderate,,L1,10/17/25 19:01,10/17/25 20:06,10/17/25 20:22,80.88842975,2,Middle,TRUE
+P0079,Emergency,Labs,Moderate,L1,I1,10/17/25 20:22,10/17/25 20:56,10/17/25 20:55,103.006012,2,End,TRUE
+P0079,Cardiology,Imaging,Moderate,I1,D4,10/17/25 20:55,10/17/25 22:40,10/17/25 22:31,109.1836735,2,End,TRUE
+P0079,Cardiology,Physicians / Specialized Consultancy,Moderate,D4,PT2,10/17/25 22:31,10/18/25 1:55,10/18/25 1:54,100.4928131,2,End,TRUE
+P0079,Cardiology,Rehabilitation,Moderate,PT2,,10/18/25 1:54,10/18/25 7:09,10/18/25 6:54,105.1252087,3,Beginning,TRUE
+P0080,Neurology,Rehabilitation,Moderate,PT1,PT1,10/17/25 3:16,10/17/25 8:02,10/17/25 8:01,100.3518649,3,Middle,TRUE
+P0080,Neurology,Rehabilitation,Moderate,PT1,I1,10/17/25 8:01,10/17/25 9:38,10/17/25 9:44,93.93695722,1,Beginning,TRUE
+P0080,Neurology,Imaging,Moderate,I1,PT1,10/17/25 9:44,10/17/25 10:25,10/17/25 10:28,93.3182333,1,Middle,TRUE
+P0080,Neurology,Rehabilitation,Moderate,PT1,PT1,10/17/25 10:28,10/17/25 11:01,10/17/25 11:12,75.07692308,1,Middle,TRUE
+P0080,Neurology,Rehabilitation,Moderate,PT1,N7,10/17/25 11:12,10/17/25 13:58,10/17/25 17:16,45.73675307,1,Middle,TRUE
+P0080,Neurology,Procedures,Moderate,N7,PT2,10/17/25 17:16,10/17/25 21:14,10/17/25 21:16,99.26981919,2,Beginning,TRUE
+P0080,Neurology,Rehabilitation,Moderate,PT2,D7,10/17/25 21:16,10/18/25 0:45,10/18/25 1:01,92.7879281,2,End,TRUE
+P0081,Orthopedics,Imaging,Moderate,I1,I1,10/17/25 11:08,10/17/25 13:49,10/17/25 13:48,100.6246747,1,Middle,TRUE
+P0081,Orthopedics,Imaging,Moderate,I1,PT1,10/17/25 13:48,10/17/25 15:20,10/17/25 18:53,30.24512748,1,End,TRUE
+P0081,Orthopedics,Rehabilitation,Moderate,PT1,I1,10/17/25 18:53,10/17/25 23:06,10/17/25 23:04,100.830896,2,Middle,TRUE
+P0081,Orthopedics,Imaging,Moderate,I1,L1,10/17/25 23:04,10/18/25 2:33,10/18/25 2:15,109.2857143,3,Beginning,TRUE
+P0081,Orthopedics,Labs,Moderate,L1,N1,10/18/25 2:15,10/18/25 4:39,10/18/25 10:59,27.42505814,3,Beginning,TRUE
+P0081,Orthopedics,Procedures,Stable,N1,,10/18/25 10:59,10/18/25 12:25,10/18/25 11:03,1871.119134,3,Middle,TRUE
+P0081,Orthopedics,Physicians / Specialized Consultancy,Stable,D1,I1,10/18/25 11:03,10/18/25 16:19,10/18/25 16:36,94.71630141,3,Middle,TRUE
+P0082,Oncology,Imaging,Moderate,I1,D6,10/17/25 10:25,10/17/25 11:49,10/17/25 11:55,94.09353456,1,Middle,TRUE
+P0082,Oncology,Physicians / Specialized Consultancy,Moderate,D6,I1,10/17/25 11:55,10/17/25 14:50,10/17/25 15:02,93.59636623,1,Middle,TRUE
+P0082,Oncology,Imaging,Moderate,I1,L1,10/17/25 15:02,10/17/25 17:10,10/17/25 16:54,114.9135876,2,Beginning,TRUE
+P0082,Oncology,Labs,Moderate,L1,I1,10/17/25 16:54,10/17/25 17:47,10/17/25 17:42,110.5955679,2,Beginning,TRUE
+P0082,Oncology,Imaging,Moderate,I1,PT2,10/17/25 17:42,10/17/25 19:53,10/17/25 19:38,112.7063891,2,Middle,TRUE
+P0082,Oncology,Rehabilitation,Moderate,PT2,D6,10/17/25 19:38,10/17/25 22:19,10/17/25 22:15,102.4483307,2,Middle,TRUE
+P0082,Oncology,Physicians / Specialized Consultancy,Moderate,D6,N6,10/17/25 22:15,10/17/25 23:35,10/17/25 23:44,90.41250706,2,End,TRUE
+P0083,Emergency,Labs,Stable,L1,PT2,10/17/25 7:02,10/17/25 10:33,10/17/25 10:19,107.5757576,1,Beginning,TRUE
+P0083,Intensive Care,Rehabilitation,Stable,PT2,D3,10/17/25 10:19,10/17/25 13:07,10/17/25 12:36,122.4960544,1,Middle,TRUE
+P0083,Intensive Care,Physicians / Specialized Consultancy,Stable,D3,N1,10/17/25 12:36,10/17/25 14:39,10/17/25 14:55,88.26695372,1,End,TRUE
+P0083,Orthopedics,Procedures,Stable,N1,L1,10/17/25 14:55,10/17/25 15:30,10/17/25 15:40,78.80496053,1,End,TRUE
+P0083,Orthopedics,Labs,Stable,L1,PT2,10/17/25 15:40,10/17/25 16:43,10/17/25 16:30,127.0978441,2,Beginning,TRUE
+P0083,Orthopedics,Rehabilitation,Stable,PT2,D1,10/17/25 16:30,10/17/25 20:40,10/17/25 20:14,111.1877736,2,Beginning,TRUE
+P0084,Emergency,Physicians / Specialized Consultancy,Stable,D2,N2,10/17/25 1:26,10/17/25 5:03,10/17/25 4:47,107.8744082,3,Beginning,TRUE
+P0084,Emergency,Procedures,Stable,N2,N2,10/17/25 4:47,10/17/25 8:35,10/17/25 8:53,92.57378825,3,End,TRUE
+P0084,Emergency,Procedures,Stable,N2,L1,10/17/25 8:53,10/17/25 9:42,10/17/25 9:59,75.21650535,1,Beginning,TRUE
+P0084,Emergency,Labs,Stable,L1,PT2,10/17/25 9:59,10/17/25 12:18,10/17/25 10:53,255.0489596,1,Middle,TRUE
+P0084,Emergency,Rehabilitation,Stable,PT1,N2,10/17/25 10:53,10/17/25 13:32,,-0.000239757,1,Middle,TRUE
+P0085,General Surgery,Physicians / Specialized Consultancy,Moderate,D5,I1,10/17/25 9:59,10/17/25 13:18,10/17/25 12:38,125.3248114,1,Middle,TRUE
+P0085,General Surgery,Imaging,Moderate,I1,I1,10/17/25 12:38,10/17/25 13:53,10/17/25 13:33,136.0650798,1,End,TRUE
+P0085,General Surgery,Imaging,Moderate,I1,N5,10/17/25 13:33,10/17/25 15:11,10/17/25 15:08,102.4925399,1,End,TRUE
+P0085,General Surgery,Procedures,Moderate,N5,L1,10/17/25 15:08,10/17/25 15:45,10/17/25 15:26,206.4454977,2,Beginning,TRUE
+P0085,General Surgery,Labs,Moderate,L1,L1,10/17/25 15:26,10/17/25 16:53,10/17/25 16:41,116.2444444,2,Beginning,TRUE
+P0085,Orthopedics,Labs,Moderate,L1,PT2,10/17/25 16:41,10/17/25 18:11,10/17/25 18:24,87.55274261,2,Beginning,TRUE
+P0085,Orthopedics,Rehabilitation,Moderate,PT2,N1,10/17/25 18:24,10/17/25 22:26,10/17/25 22:40,94.7762165,2,Middle,TRUE
+P0086,Intensive Care,Procedures,Critical,N3,L1,10/17/25 1:22,10/17/25 1:57,10/17/25 9:53,6.928368816,3,Beginning,TRUE
+P0086,Intensive Care,Labs,Critical,L1,D3,10/17/25 9:53,10/17/25 11:04,10/17/25 11:03,101.4157621,1,Middle,TRUE
+P0086,Intensive Care,Physicians / Specialized Consultancy,Critical,D3,D3,10/17/25 11:03,10/17/25 12:10,10/17/25 11:51,141.6431594,1,Middle,TRUE
+P0086,Intensive Care,Physicians / Specialized Consultancy,Critical,D3,D2,10/17/25 11:51,10/17/25 12:58,10/17/25 13:08,87.07937878,1,Middle,TRUE
+P0086,Emergency,Physicians / Specialized Consultancy,Critical,D2,PT1,10/17/25 13:08,10/17/25 15:41,10/17/25 14:08,255.2675585,1,End,TRUE
+P0086,Emergency,Rehabilitation,Critical,PT1,N2,10/17/25 14:08,10/17/25 16:06,10/17/25 15:56,109.4476073,1,End,TRUE
+P0086,Emergency,Procedures,Critical,N2,I1,10/17/25 15:56,10/17/25 19:19,10/17/25 19:33,93.52379486,2,Beginning,TRUE
+P0086,Emergency,Imaging,Critical,I1,D5,10/17/25 19:33,10/17/25 23:32,10/17/25 23:22,104.426063,2,Middle,TRUE
+P0087,Intensive Care,Physicians / Specialized Consultancy,Stable,D3,I1,10/17/25 7:19,10/17/25 10:33,10/17/25 10:44,94.6219987,1,Beginning,TRUE
+P0087,Intensive Care,Imaging,Stable,I1,N3,10/17/25 10:44,10/17/25 15:29,10/17/25 15:31,99.39503229,1,Middle,TRUE
+P0087,Intensive Care,Procedures,Stable,N3,PT1,10/17/25 15:31,10/17/25 19:35,10/17/25 19:37,98.93178284,2,Beginning,TRUE
+P0087,Intensive Care,Rehabilitation,Stable,PT1,PT1,10/17/25 19:37,10/18/25 1:08,10/18/25 0:57,103.2657951,2,Middle,TRUE
+P0087,Intensive Care,Rehabilitation,Stable,PT1,,10/18/25 0:57,10/18/25 5:18,10/18/25 3:20,183.3489352,3,Beginning,TRUE
+P0088,Neurology,Imaging,Stable,I1,L1,10/17/25 4:19,10/17/25 9:12,10/17/25 9:30,94.1614441,3,Middle,TRUE
+P0088,Neurology,Labs,Stable,L1,D7,10/17/25 9:30,10/17/25 12:23,10/17/25 12:28,96.78838951,1,Beginning,TRUE
+P0088,Neurology,Physicians / Specialized Consultancy,Stable,D7,D7,10/17/25 12:28,10/17/25 13:09,10/17/25 12:58,139.9542072,1,End,TRUE
+P0088,Neurology,Physicians / Specialized Consultancy,Stable,D7,PT1,10/17/25 12:58,10/17/25 15:10,10/17/25 20:09,30.69548073,1,End,TRUE
+P0088,Neurology,Rehabilitation,Stable,PT1,PT2,10/17/25 20:09,10/17/25 21:11,10/17/25 21:25,81.79025888,2,Middle,TRUE
+P0088,Neurology,Rehabilitation,Stable,PT2,D7,10/17/25 21:25,10/17/25 22:47,10/17/25 23:05,82.14881548,2,End,TRUE
+P0089,Neurology,Physicians / Specialized Consultancy,Critical,D7,L1,10/17/25 3:58,10/17/25 4:14,10/17/25 3:59,1601.666662,3,Middle,TRUE
+P0089,Orthopedics,Labs,Critical,L1,L1,10/17/25 3:59,10/17/25 6:49,10/17/25 11:48,36.32687806,3,Middle,TRUE
+P0089,Orthopedics,Labs,Critical,L1,N1,10/17/25 11:48,10/17/25 13:27,10/17/25 13:16,112.1390577,1,Middle,TRUE
+P0089,Orthopedics,Procedures,Critical,N1,N1,10/17/25 13:16,10/17/25 17:15,10/17/25 17:02,105.7354028,1,End,TRUE
+P0089,Orthopedics,Procedures,Critical,N1,L1,10/17/25 17:02,10/17/25 18:36,10/17/25 18:54,83.55759278,2,Beginning,TRUE
+P0089,Orthopedics,Labs,Critical,L1,I1,10/17/25 18:54,10/17/25 19:10,10/17/25 19:07,123.0670104,2,Middle,TRUE
+P0089,Orthopedics,Imaging,Critical,I1,I1,10/17/25 19:07,10/17/25 20:07,10/17/25 20:05,103.5087719,2,Middle,TRUE
+P0089,Orthopedics,Imaging,Critical,I1,D1,10/17/25 20:05,10/17/25 22:27,10/17/25 21:42,147.7485279,2,Middle,TRUE
+P0090,Emergency,Imaging,Critical,I1,I1,10/17/25 11:29,10/17/25 13:08,10/17/25 13:02,106.4794816,1,Middle,TRUE
+P0090,Emergency,Imaging,Critical,I1,I1,10/17/25 13:02,10/17/25 15:14,10/17/25 22:46,22.73854663,1,End,TRUE
+P0090,Emergency,Imaging,Critical,I1,PT2,10/17/25 22:46,10/18/25 4:17,10/18/25 9:39,50.64497178,2,End,TRUE
+P0090,Emergency,Rehabilitation,Critical,PT2,D2,10/18/25 9:39,10/18/25 12:25,10/18/25 12:38,93.07069014,3,Middle,TRUE
+P0090,Emergency,Physicians / Specialized Consultancy,Critical,D2,I1,10/18/25 12:38,10/18/25 16:45,10/18/25 16:32,105.675272,3,Middle,TRUE
+P0090,Emergency,Imaging,Critical,I1,PT2,10/18/25 16:32,10/18/25 21:13,10/18/25 19:40,149.005393,3,End,TRUE
+P0090,Emergency,Rehabilitation,Critical,PT2,N2,10/18/25 19:40,10/19/25 0:44,10/19/25 0:34,103.6098005,3,End,TRUE
+P0090,Emergency,Procedures,Critical,N2,N2,10/19/25 0:34,10/19/25 3:30,,-0.000266726,3,Beginning,TRUE
+P0091,General Surgery,Physicians / Specialized Consultancy,Moderate,D5,PT1,10/17/25 8:07,10/17/25 10:30,10/17/25 10:39,93.61098997,1,Beginning,TRUE
+P0091,General Surgery,Rehabilitation,Moderate,PT1,N5,10/17/25 10:39,10/17/25 14:28,10/17/25 13:09,153.003573,1,Middle,TRUE
+P0091,General Surgery,Procedures,Moderate,N5,PT1,10/17/25 13:09,10/17/25 17:44,10/17/25 17:46,99.29014017,1,End,TRUE
+P0091,General Surgery,Rehabilitation,Moderate,PT1,PT1,10/17/25 17:46,10/17/25 21:53,10/17/25 22:00,97.47998425,2,Middle,TRUE
+P0091,General Surgery,Rehabilitation,Moderate,PT1,L1,10/17/25 22:00,10/18/25 0:39,10/18/25 0:52,92.44405696,2,End,TRUE
+P0091,General Surgery,Labs,Moderate,,N5,10/18/25 0:52,10/18/25 3:50,10/18/25 3:55,97.08720189,3,Beginning,TRUE
+P0091,General Surgery,Procedures,Stable,N5,D5,10/18/25 3:55,10/18/25 6:50,10/18/25 6:33,110.6167633,3,Beginning,TRUE
+P0092,Neurology,Physicians / Specialized Consultancy,Moderate,D7,I1,10/17/25 9:10,10/17/25 10:03,10/17/25 10:05,95.03440023,1,Beginning,TRUE
+P0092,Oncology,Imaging,Moderate,I1,PT2,10/17/25 10:05,10/17/25 11:15,10/17/25 11:25,87.19242902,1,Middle,TRUE
+P0092,Intensive Care,Rehabilitation,Moderate,PT2,N3,10/17/25 11:25,10/17/25 13:29,10/17/25 13:10,118.3918962,1,Middle,TRUE
+P0092,Intensive Care,Procedures,Moderate,N3,PT2,10/17/25 13:10,10/17/25 14:35,10/17/25 14:41,93.45760235,1,End,TRUE
+P0092,Intensive Care,Rehabilitation,Moderate,PT2,N1,10/17/25 14:41,10/17/25 20:32,10/17/25 20:30,100.4874785,1,End,TRUE
+P0092,Orthopedics,Procedures,Moderate,N4,D1,10/17/25 20:30,10/17/25 22:18,10/17/25 22:36,85.44445912,2,End,TRUE
+P0092,Orthopedics,Physicians / Specialized Consultancy,Moderate,D1,I1,10/17/25 22:36,10/18/25 1:28,10/18/25 1:08,112.8376162,2,End,TRUE
+P0093,General Surgery,Imaging,Stable,I1,D5,10/17/25 4:09,10/17/25 6:31,10/17/25 6:49,88.99686521,3,Middle,TRUE
+P0093,General Surgery,Physicians / Specialized Consultancy,Stable,D5,L1,10/17/25 6:49,10/17/25 9:16,10/17/25 9:17,99.32576694,3,End,TRUE
+P0093,General Surgery,Labs,Stable,L1,D5,10/17/25 9:17,10/17/25 14:14,10/17/25 17:46,58.25226819,1,Beginning,TRUE
+P0093,General Surgery,Physicians / Specialized Consultancy,Stable,D5,D5,10/17/25 17:46,10/17/25 20:00,10/17/25 19:47,110.9297178,2,Middle,TRUE
+P0093,General Surgery,Physicians / Specialized Consultancy,Stable,D5,I1,10/17/25 19:47,10/17/25 23:44,10/17/25 23:29,106.7612187,2,Middle,TRUE
+P0093,General Surgery,Imaging,Stable,I1,N5,10/17/25 23:29,10/18/25 2:33,10/18/25 2:51,91.39838204,3,Beginning,TRUE
+P0094,Emergency,Rehabilitation,Stable,PT1,PT1,10/17/25 11:15,10/17/25 14:55,10/17/25 20:45,38.57067788,1,Middle,TRUE
+P0094,Cardiology,Rehabilitation,Stable,PT1,I1,10/17/25 20:45,10/18/25 0:01,10/18/25 0:04,98.38331379,2,End,TRUE
+P0094,Neurology,Imaging,Stable,I1,N7,10/18/25 0:04,10/18/25 3:15,10/18/25 3:18,98.40613423,3,Beginning,TRUE
+P0094,Neurology,Procedures,Stable,N7,PT1,10/18/25 3:18,10/18/25 4:09,10/18/25 4:03,113.4361234,3,Beginning,TRUE
+P0094,Neurology,Rehabilitation,Stable,PT1,N5,10/18/25 4:03,10/18/25 8:51,10/18/25 8:32,107.0962935,3,Beginning,TRUE
+P0095,Emergency,Procedures,Moderate,N2,I1,10/17/25 11:00,10/17/25 12:42,10/17/25 12:38,103.3918527,1,Middle,TRUE
+P0095,Emergency,Imaging,Moderate,I1,L1,10/17/25 12:38,10/17/25 13:32,10/17/25 12:39,5331.666649,1,End,TRUE
+P0095,Emergency,Labs,Moderate,L1,PT2,10/17/25 12:39,10/17/25 17:50,10/17/25 17:54,98.75397667,1,End,TRUE
+P0095,Emergency,Rehabilitation,Moderate,PT2,N2,10/17/25 17:54,10/17/25 22:21,10/17/25 22:36,94.65202763,2,Middle,TRUE
+P0095,Emergency,Procedures,Moderate,N2,I1,10/17/25 22:36,10/17/25 23:16,10/17/25 23:32,70.76923076,2,End,TRUE
+P0095,Emergency,Imaging,Moderate,I1,N2,10/17/25 23:32,10/18/25 0:38,10/18/25 0:24,128.0337443,3,Beginning,TRUE
+P0095,Emergency,Procedures,Moderate,N2,D2,10/18/25 0:24,10/18/25 1:07,10/18/25 1:22,73.34845477,3,Beginning,TRUE
+P0096,Cardiology,Labs,Moderate,L1,N4,10/17/25 0:34,10/17/25 2:23,10/17/25 2:32,92.42167655,3,Beginning,TRUE
+P0096,Cardiology,Procedures,Moderate,N4,N4,10/17/25 2:32,10/17/25 3:29,10/17/25 2:33,5758.333314,3,Middle,TRUE
+P0096,Cardiology,Procedures,Moderate,N4,PT2,10/17/25 2:33,10/17/25 3:56,10/17/25 4:57,57.68874479,3,Middle,TRUE
+P0096,Cardiology,Rehabilitation,Moderate,PT2,D4,10/17/25 4:57,10/17/25 6:01,10/17/25 6:09,89.02552203,3,End,TRUE
+P0096,Cardiology,Physicians / Specialized Consultancy,Moderate,D4,I1,10/17/25 6:09,10/17/25 9:39,10/17/25 9:35,101.8137848,3,End,TRUE
+P0096,Cardiology,Imaging,Moderate,I1,N4,10/17/25 9:35,10/17/25 14:41,10/17/25 14:31,103.1721884,1,Beginning,TRUE
+P0096,Cardiology,Procedures,Moderate,N4,PT1,10/17/25 14:31,10/17/25 17:04,10/17/25 17:06,98.98641363,1,End,TRUE
+P0097,Orthopedics,Imaging,Critical,I1,D1,10/17/25 11:47,10/17/25 12:20,10/17/25 12:00,253.5301669,1,Middle,TRUE
+P0097,Orthopedics,Physicians / Specialized Consultancy,Critical,D1,N1,10/17/25 12:00,10/17/25 14:01,10/17/25 14:04,97.59486905,1,Middle,TRUE
+P0097,Orthopedics,Procedures,Critical,N1,N1,10/17/25 14:04,10/17/25 14:29,10/17/25 14:25,119.5458232,1,End,TRUE
+P0097,Orthopedics,Procedures,Critical,N1,L1,10/17/25 14:25,10/17/25 15:33,10/17/25 15:41,89.59613697,1,End,TRUE
+P0097,Emergency,Labs,Critical,L1,PT1,10/17/25 15:41,10/17/25 17:07,10/17/25 17:23,84.18650147,2,Beginning,TRUE
+P0097,Emergency,Rehabilitation,Critical,PT1,I1,10/17/25 17:23,10/17/25 23:13,10/17/25 23:03,102.9345372,2,Beginning,TRUE
+P0097,Emergency,Imaging,Critical,I1,L1,10/17/25 23:03,10/18/25 0:26,10/18/25 0:31,94.76280835,3,Beginning,TRUE
+P0097,Neurology,Labs,Critical,L1,N1,10/18/25 0:31,10/18/25 1:29,10/18/25 0:32,5868.333315,3,Beginning,TRUE
+P0098,General Surgery,Labs,Stable,L2,L2,10/17/25 7:53,10/17/25 10:55,10/17/25 10:32,113.9748954,1,Beginning,TRUE
+P0098,General Surgery,Labs,Stable,L2,PT2,10/17/25 10:32,10/17/25 12:53,10/17/25 12:39,111.5693767,1,Middle,TRUE
+P0098,General Surgery,Rehabilitation,Stable,PT2,PT1,10/17/25 12:39,10/17/25 17:29,10/17/25 17:31,99.24199248,1,End,TRUE
+P0098,General Surgery,Rehabilitation,Stable,PT1,L1,10/17/25 17:31,10/17/25 21:47,10/18/25 2:03,50.08797654,2,Beginning,TRUE
+P0098,General Surgery,Labs,Stable,L1,,10/18/25 2:03,10/18/25 4:28,10/18/25 4:46,89.34451376,3,Beginning,TRUE
+P0099,Cardiology,Imaging,Stable,I1,PT1,10/17/25 1:19,10/17/25 2:17,10/17/25 2:00,141.9078679,3,Beginning,TRUE
+P0099,Cardiology,Rehabilitation,Stable,PT1,PT1,10/17/25 2:00,10/17/25 4:25,10/17/25 4:29,97.21785955,3,Middle,TRUE
+P0099,Cardiology,Rehabilitation,Stable,PT1,N4,10/17/25 4:29,10/17/25 5:39,10/17/25 9:26,23.75870591,3,End,TRUE
+P0099,Cardiology,Procedures,Stable,N4,L2,10/17/25 9:26,10/17/25 11:20,10/17/25 11:34,89.26759464,1,Beginning,TRUE
+P0099,Cardiology,Labs,Stable,L2,I1,10/17/25 11:34,10/17/25 11:50,10/17/25 11:35,1646.666662,1,Middle,TRUE
+P0099,Cardiology,Imaging,Stable,I1,D4,10/17/25 11:35,10/17/25 12:15,,-6.03E-05,1,Middle,TRUE
+P0100,Intensive Care,Physicians / Specialized Consultancy,Moderate,D3,L1,10/17/25 3:40,10/17/25 5:23,10/17/25 4:50,146.0955987,3,Middle,TRUE
+P0100,Intensive Care,Labs,Moderate,L1,N1,10/17/25 4:50,10/17/25 6:14,10/17/25 6:32,82.96126067,3,End,TRUE
+P0100,Orthopedics,Procedures,Moderate,N1,D1,10/17/25 6:32,10/17/25 7:35,10/17/25 6:33,6334.99998,3,End,TRUE
+P0100,Orthopedics,Physicians / Specialized Consultancy,Moderate,D1,L1,10/17/25 6:33,10/17/25 6:56,10/17/25 7:14,56.6211878,3,End,TRUE
+P0100,Orthopedics,Labs,Moderate,L1,PT2,10/17/25 7:14,10/17/25 7:55,10/17/25 7:40,160.6417813,1,Beginning,TRUE
+P0100,Orthopedics,Rehabilitation,Moderate,PT2,N1,10/17/25 7:40,10/17/25 11:39,10/17/25 11:31,103.1232009,1,Beginning,TRUE
+P0100,Orthopedics,Procedures,Moderate,N1,I2,10/17/25 11:31,10/17/25 12:43,10/17/25 12:45,97.50736461,1,Middle,TRUE
