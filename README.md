@@ -149,6 +149,7 @@ Here you can:
 |-----------|-------------------|--------------------------|
 | App fails to start | Missing or outdated R packages | Re-install packages and make sure all necessary packages are installed |
 | “object 'get_info' not found” | Function file not sourced | Ensure the helper file is loaded |
+| “functions_process_control' not found” | Function file not sourced | Ensure the helper file is loaded |
 | Blank or missing plots | `ggplot2` or `ggpubr` not installed | Reinstall required packages |
 | Timestamps not displaying correctly | Incorrect time format or locale settings | Verify respective conversions using |
 | Error: *cannot find shiny app* | Wrong working directory | Set directory to project root |
